@@ -8,12 +8,6 @@ function useRequests() {
     initialRequests
   );
 
-  // function addRequest(newRequest) {
-  //   setRequests((previousRequests) => [
-  //     newRequest,
-  //     ...previousRequests,
-  //   ]);
-  // }
   function addRequest(newRequest) {
   setRequests((previousRequests) => {
     const highestId = previousRequests.reduce(
